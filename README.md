@@ -15,6 +15,7 @@ docker run -d \
 Execute the Flask.py
 Open brower for http://127.0.0.1:5000/
 
+Error Logging : Errorlog.txt (default:warning) 
 Testing :
 
 Landing page : "Welcome to Employee API!"
@@ -26,7 +27,7 @@ Operation 2 : http://127.0.0.1:5000/Operation2
 Prompts : Please enter a valid employee_no
 <Enter the emp_no Authorized dictionay>
   
- Testcase 1 : http://127.0.0.1:5000/Operation2?emp_no=100001
+ Testcase 1 : http://127.0.0.1:5000/Operation2?emp_no=100003 (Displays the information and history of respective emp_no)
  Testcase 2 : http://127.0.0.1:5000/Operation2?emp_no= any
 
 
